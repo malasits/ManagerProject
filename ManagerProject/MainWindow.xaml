@@ -1,0 +1,46 @@
+﻿<Window x:Class="ManagerProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ManagerProject"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        Title="Manager Projekt" Height="600" Width="800" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" KeyDown="Window_KeyDown">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="450"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="15"/>
+            <RowDefinition Height="250"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <!--Menu-->
+
+        <WrapPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+            <!--Commant Panel-->
+            <StackPanel Width="450" Height="250" HorizontalAlignment="Left">
+                <ListBox Name="CommandPalette" Width="440" Height="220" Margin="10,0,0,0" Visibility="Collapsed"></ListBox>
+                <Image Name="CommandLoader" Visibility="Visible" Width="40" Height="220" Margin="10,0,0,0" gif:ImageBehavior.RepeatBehavior="Forever" gif:ImageBehavior.AnimatedSource="F:\Programing\C#\ManagerProject\ManagerProject\Content\loader.gif"/>
+                <WrapPanel>
+                    <TextBox Name="CommandText" Width="400" Height="25" Margin="10,2,0,0" HorizontalAlignment="Left" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" SelectionBrush="Black"/>
+                    <Button Name="CommandInpudBtn" Width="38" Height="25" Margin="2,2,0,0">$</Button>
+                </WrapPanel>
+            </StackPanel>
+        </WrapPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="1" Margin="10,0,0,0">
+            <WrapPanel>
+                <Label  Content="Internet connection:"/>
+                <Label Name="InternetConnectionText" FontWeight="Bold"/>
+            </WrapPanel>
+            <WrapPanel>
+                <Label  Content="Ping:"/>
+                <Label Name="InternetPingText" FontWeight="Bold"/>
+            </WrapPanel>
+        </StackPanel>
+
+    </Grid>
+</Window>

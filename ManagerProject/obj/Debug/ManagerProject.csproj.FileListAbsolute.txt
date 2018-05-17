@@ -1,0 +1,16 @@
+F:\Programing\C#\ManagerProject\ManagerProject\obj\Debug\MainWindow.g.cs
+F:\Programing\C#\ManagerProject\ManagerProject\obj\Debug\App.g.cs
+F:\Programing\C#\ManagerProject\ManagerProject\obj\Debug\ManagerProject_MarkupCompile.cache
+F:\Programing\C#\ManagerProject\ManagerProject\obj\Debug\ManagerProject_MarkupCompile.lref
+F:\Programing\C#\ManagerProject\ManagerProject\bin\Debug\ManagerProject.exe.config
+F:\Programing\C#\ManagerProject\ManagerProject\bin\Debug\ManagerProject.exe
+F:\Programing\C#\ManagerProject\ManagerProject\bin\Debug\ManagerProject.pdb
+F:\Programing\C#\ManagerProject\ManagerProject\bin\Debug\WpfAnimatedGif.dll
+F:\Programing\C#\ManagerProject\ManagerProject\bin\Debug\WpfAnimatedGif.xml
+F:\Programing\C#\ManagerProject\ManagerProject\obj\Debug\MainWindow.baml
+F:\Programing\C#\ManagerProject\ManagerProject\obj\Debug\ManagerProject.g.resources
+F:\Programing\C#\ManagerProject\ManagerProject\obj\Debug\ManagerProject.Properties.Resources.resources
+F:\Programing\C#\ManagerProject\ManagerProject\obj\Debug\ManagerProject.csproj.GenerateResource.Cache
+F:\Programing\C#\ManagerProject\ManagerProject\obj\Debug\ManagerProject.exe
+F:\Programing\C#\ManagerProject\ManagerProject\obj\Debug\ManagerProject.pdb
+F:\Programing\C#\ManagerProject\ManagerProject\obj\Debug\ManagerProject.csprojResolveAssemblyReference.cache
